@@ -1,0 +1,50 @@
+<html>
+	<head>
+ 
+		
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.9.2.custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/fullcalendar.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.miniColors.css" />
+		<link rel="stylesheet" type="text/css" href="calendar.css" />
+	</head>
+	<body>
+ 
+		
+		<div id="content_wrapper">
+ 
+			
+			<div id="calendar">
+			</div>
+ 
+			
+			<div id="event_generation_wrapper">
+				
+				Enter Name of Event:<br><br>
+				<input id='txt_title' type='text' value='Event Name' /><br /><br><br>
+				Enter Description Here:
+				<textarea id='txt_description'></textarea><br /><br><br>
+				
+				<input id="btn_gen_event" type="button" value="Add Event" class='btn' /><br><br>
+				<input id="btn_update_event" type="button" value="Update Event" class='btn'/>
+				<input id="txt_current_event" type="hidden" value="" />
+			</div>
+ 
+			
+			
+			<div id='external_events'>
+			
+				<div id="patients"><h3>Events:</h3></div><div id='external_event_template' class='external-event ui-draggable'>One Hour</div>
+				
+			</div>
+		
+        </div>
+		
+		
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+		<script type='text/javascript' src='js/jquery-ui-1.9.2.custom.min.js'></script>
+		<script type='text/javascript' src='js/fullcalendar.js'></script>
+		<script type='text/javascript' src='js/view_calendar.js'></script>
+		<script type='text/javascript' src='js/jquery.miniColors.js'></script>
+	</body>
+	
+</html>

@@ -1,0 +1,17 @@
+h1 { color: red; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+
+#calendar .fc-agenda-axis, #calendar .fc-widget-header{
+	background-color: #FFF333;
+	border-color: black;
+	font-weight: normal;
+	
+	border-radius: 3px;
+}
+#calendar .fc-content{
+	background-color: #FFFFFF;
+	font-size: 90%;
+}
+.fc-today{
+   background-color: #66FF66;
+}
+body{padding-bottom:20px;}
